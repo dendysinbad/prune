@@ -1,0 +1,2 @@
+# prune
+Docker system prune
