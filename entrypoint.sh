@@ -2,7 +2,7 @@
 
 while true; do
     echo "$ docker system prune -f $@"
-    docker image prune -f $@
+    docker system prune -f $@
 
     if [ -n "$SLEEP" ]; then
         echo "Sleep for $SLEEP seconds..."
